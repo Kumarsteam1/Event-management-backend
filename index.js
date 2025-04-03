@@ -10,8 +10,8 @@ require("./db/Connections");
 
 
 // Required Routes
-const userRoutes = require("../Server/routes/UserRoutes");
-const eventRoutes = require("../Server/routes/eventRoutes")
+const userRoutes = require("./routes/UserRoutes");
+const eventRoutes = require("./routes/eventRoutes")
 
 
 // MIDDLEWARES
